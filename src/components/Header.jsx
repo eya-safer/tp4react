@@ -5,7 +5,7 @@ function Header({ isDark, cartCount, onToggleTheme }) {
   return (
     <Navbar expand="lg" className="food-navbar">
       <Navbar.Brand href="#top" className="brand" aria-label="Miam's, accueil">
-        <span className="brand-mark">m</span>
+        <img className="brand-mark" src="/miams-logo.png" alt="" />
         <span>miam’s<span className="brand-dot">.</span></span>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="food-navbar-links" aria-label="Ouvrir la navigation" />
